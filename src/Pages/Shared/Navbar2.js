@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
 
@@ -50,40 +51,40 @@ const Navbar2 = () => {
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
-                    <li><a class='hover:text-red-600 text-lg'>Home</a></li>
-                    <li><a class='hover:text-red-600 text-lg'>About</a></li>
-                    <li><a class='hover:text-red-600 text-lg'>Service</a></li>
+                    <li><Link to="/" class="hover:text-red-600 text-lg">Home</Link></li>
+                    <li><Link to="/about" class="hover:text-red-600 text-lg">About</Link></li>
+                    <li><Link to="/" class="hover:text-red-600 text-lg">Service</Link></li>
                     <li tabindex="0">
-                        <a class='hover:text-red-600 text-lg'>
+                        <Link to="/" class="hover:text-red-600 text-lg">
                             Department
                             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                        </a>
+                        </Link>
                         <ul class="p-2">
                             <li><a>Submenu 1</a></li>
                             <li><a>Submenu 2</a></li>
                         </ul>
                     </li>
                     <li tabindex="0">
-                        <a className='hover:text-red-600 text-lg'>
+                        <Link to="/" class="hover:text-red-600 text-lg">
                             Doctors
                             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                        </a>
+                        </Link>
                         <ul class="p-2">
                             <li><a>Submenu 1</a></li>
                             <li><a>Submenu 2</a></li>
                         </ul>
                     </li>
                     <li tabindex="0">
-                        <a class='hover:text-red-600 text-lg'>
+                        <Link to="/" class="hover:text-red-600 text-lg">
                             Blog
                             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
-                        </a>
+                        </Link>
                         <ul class="p-2">
                             <li><a>Submenu 1</a></li>
                             <li><a>Submenu 2</a></li>
                         </ul>
                     </li>
-                    <li><a class='hover:text-red-600 text-lg'>Contact</a></li>
+                    <li><Link to="/" class="hover:text-red-600 text-lg">Contact</Link></li>
                 </ul>
             </div>
 
