@@ -6,7 +6,7 @@ import image3 from '../../assects/images/Rectangle 4.png'
 const Appoinments = () => {
     return (
         <div>
-            <div className="container mx-auto px-4 my-28">
+            <div className="container mx-auto my-28 mt-[-100px]">
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-2'>
                     <div class="card lg:max-w-lg bg-base-100 shadow-xl mx-2">
                         <div class="card-body">
