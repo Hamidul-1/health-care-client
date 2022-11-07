@@ -7,9 +7,9 @@ import image5 from '../../assects/images/image 12.png';
 
 const Support = () => {
     return (
-        <div className='px-20 py-24'>
+        <div className='px-20 py-20'>
             <div className='container mx-auto'>
-                <div className='pb-28'>
+                <div className=''>
                     <div className='text-center'>
                         <h1 className='text-5xl text-primary font-bold mb-5'>Partners who support us</h1>
                         <p className='text-base text-primary pb-14'>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt <br/> molestias nostrum laudantium. Maiores porro cumque quaerat.</p>

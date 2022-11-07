@@ -1,9 +1,13 @@
 import React from 'react';
+import Hero from './Hero';
+import Hero2 from './Hero2';
 
 const About = () => {
     return (
         <div>
-            <h2>This is about page</h2>
+            
+            <Hero></Hero>
+            <Hero2></Hero2>
         </div>
     );
 };
