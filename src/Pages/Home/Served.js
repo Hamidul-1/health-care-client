@@ -47,7 +47,7 @@ const Served = () => {
         }
     ]
     return (
-        <div className='bg-slate-200 px-28 py-36 mt-[-220px]'>
+        <div className='bg-slate-200 px-20 py-36 mt-[-220px]'>
             <div className='container mx-auto'>
                 <div className='pb-28'>
                     <div className='text-center'>
