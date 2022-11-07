@@ -12,7 +12,7 @@ const PersonalCare = () => {
                     <img class="pt-6" src={Ractangle7} alt="" />
                 </div>
                 <div className='flex justify-center items-center'>
-                    <div class="flex justify-center items-center px-6">
+                    <div class=" px-6">
                         <img class="w-full" src={Ractangle5} alt="pic" />
                     </div>
                     <div class="flex-col justify-center items-center px-6 w-1/2">
