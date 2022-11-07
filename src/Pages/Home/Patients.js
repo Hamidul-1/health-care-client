@@ -14,7 +14,7 @@ const Patients = () => {
                     </div>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
-                    <div class="card lg:max-w-lg bg-base-100 shadow-xl px-4 pt-10">
+                    <div class="card w-full bg-base-100 shadow-xl px-4 pt-10">
                         <div className='flex justify-around items-center '>
                             <img src={image1} alt="" />
                             <div>
@@ -30,7 +30,7 @@ const Patients = () => {
                         </div>
                     </div>
 
-                    <div class="card lg:max-w-lg bg-base-100 shadow-xl px-4 pt-10">
+                    <div class="card w-full bg-base-100 shadow-xl px-4 pt-10">
                         <div className='flex justify-around items-center '>
                             <img src={image2} alt="" />
                             <div>

@@ -7,11 +7,11 @@ import Patients from './Patients';
 import PersonalCare from './PersonalCare';
 import Served from './Served';
 import Success from './Success';
+import Support from './Support';
 
 const Home = () => {
     return (
         <div>
-            
             <Banner></Banner>
             <Appoinments></Appoinments>
             <PersonalCare></PersonalCare>
@@ -19,6 +19,7 @@ const Home = () => {
             <Served></Served>
             <BookAppointment></BookAppointment>
             <Patients></Patients>
+            <Support></Support>
         </div>
     );
 };

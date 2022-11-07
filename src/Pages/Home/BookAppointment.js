@@ -4,9 +4,12 @@ import image from '../../assects/images/Rectangle 5.png'
 const BookAppointment = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-base-100">
+            <div class="container mx-auto hero min-h-screen bg-base-100">
                 <div class="hero-content flex-col lg:flex-row">
-                    <img src={image} class="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <img src={image} class="max-w-sm rounded-lg shadow-2xl" />
+                    </div>
+
                     <div className='px-2'>
                         <h1 class="text-5xl text-primary font-bold pb-2">Book appontment</h1>
                         <p className='pb-5'>Mollitia dicta commodi est recusandae iste, natus eum asperiores corrupti qui velit. Iste dolorum atque similique praesentium soluta.</p>
