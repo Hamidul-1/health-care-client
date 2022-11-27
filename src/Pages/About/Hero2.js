@@ -19,29 +19,29 @@ const Hero2 = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12'>
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12'>
+                <div class="card">
                     <figure><img src={Rectangle1} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="text-primary font-bold card-title">Healthcare for Kids</h2>
                         <p className='text-base'>Voluptate aperiam esse possimus<br /> maxime repellendus, nihil quod <br /> accusantium.</p>
                     </div>
                 </div>
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card">
                     <figure><img src={Rectangle2} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="text-primary font-bold card-title">Medical Counseling</h2>
                         <p className='text-base'>Voluptate aperiam esse possimus<br /> maxime repellendus, nihil quod <br /> accusantium.</p>
                     </div>
                 </div>
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card shadow-xl">
                     <figure><img src={Rectangle3} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="text-primary font-bold card-title">Modern Equipments</h2>
                         <p className='text-base'>Voluptate aperiam esse possimus<br /> maxime repellendus, nihil quod <br /> accusantium.</p>
                     </div>
                 </div>
-                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                <div class="card shadow-xl">
                     <figure><img src={Rectangle4} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="text-primary font-bold card-title">Qualified Doctors</h2>

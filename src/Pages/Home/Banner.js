@@ -3,10 +3,10 @@ import hero from '../../assects/images/Hero Img.png'
 
 const Banner = () => {
     return (
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1'>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src={hero} class="w-full" />
+                    <img src={hero} alt="hero" class="w-full" />
 
                     <div class="absolute transform -translate-y-1/2 left-5 right-5 top-1/2 ml-48 w-1/2">
                         <h1 class="text-left text-base mb-4 font-bold">TOTAL HEALTH CARE SOLUTION</h1>
